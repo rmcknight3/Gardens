@@ -1,0 +1,326 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=windows-1252">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice 4.1.2  (Win32)">
+	<META NAME="CREATED" CONTENT="0;0">
+	<META NAME="CHANGEDBY" CONTENT="R M">
+	<META NAME="CHANGED" CONTENT="20160721;18354270">
+	<STYLE TYPE="text/css">
+	<!--
+		H2.cjk { font-family: "SimSun" }
+		H2.ctl { font-family: "Mangal" }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="en-US" DIR="LTR">
+<H1>Database test</H1>
+<H2 CLASS="western">Table structure for table gardens</H2>
+<TABLE WIDTH=282 BORDER=0 CELLPADDING=2 CELLSPACING=0>
+	<COL WIDTH=70>
+	<COL WIDTH=63>
+	<COL WIDTH=42>
+	<COL WIDTH=91>
+	<TR>
+		<TH WIDTH=70>
+			<P>Column</P>
+		</TH>
+		<TD WIDTH=63>
+			<P><STRONG>Type</STRONG></P>
+		</TD>
+		<TD WIDTH=42>
+			<P><STRONG>Null</STRONG></P>
+		</TD>
+		<TD WIDTH=91>
+			<P><STRONG>Default</STRONG></P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=70>
+			<P><EM><STRONG>garden_id</STRONG></EM></P>
+		</TD>
+		<TD WIDTH=63>
+			<P>int(11)</P>
+		</TD>
+		<TD WIDTH=42>
+			<P>No</P>
+		</TD>
+		<TD WIDTH=91></TD>
+	</TR>
+	<TR>
+		<TD WIDTH=70>
+			<P>user_id</P>
+		</TD>
+		<TD WIDTH=63>
+			<P>int(11)</P>
+		</TD>
+		<TD WIDTH=42>
+			<P>Yes</P>
+		</TD>
+		<TD WIDTH=91>
+			<P>NULL</P>
+		</TD>
+	</TR>
+</TABLE>
+<H2 CLASS="western">Dumping data for table gardens</H2>
+<TABLE CELLPADDING=2 CELLSPACING=1>
+	<TR>
+		<TD>
+			<P>7</P>
+		</TD>
+		<TD>
+			<P>NULL</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>8</P>
+		</TD>
+		<TD>
+			<P>NULL</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>9</P>
+		</TD>
+		<TD>
+			<P>NULL</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>10</P>
+		</TD>
+		<TD>
+			<P>NULL</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>11</P>
+		</TD>
+		<TD>
+			<P>NULL</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>2</P>
+		</TD>
+		<TD>
+			<P>1</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>3</P>
+		</TD>
+		<TD>
+			<P>1</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>4</P>
+		</TD>
+		<TD>
+			<P>1</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>5</P>
+		</TD>
+		<TD>
+			<P>2</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>1</P>
+		</TD>
+		<TD>
+			<P>3</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>6</P>
+		</TD>
+		<TD>
+			<P>4</P>
+		</TD>
+	</TR>
+</TABLE>
+<H2 CLASS="western">Table structure for table users</H2>
+<TABLE CELLPADDING=2 CELLSPACING=1>
+	<TR>
+		<TH>
+			<P>Column</P>
+		</TH>
+		<TD>
+			<P><STRONG>Type</STRONG></P>
+		</TD>
+		<TD>
+			<P><STRONG>Null</STRONG></P>
+		</TD>
+		<TD>
+			<P><STRONG>Default</STRONG></P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P><EM><STRONG>user_id</STRONG></EM></P>
+		</TD>
+		<TD>
+			<P>int(11)</P>
+		</TD>
+		<TD>
+			<P>No</P>
+		</TD>
+		<TD></TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>first_name</P>
+		</TD>
+		<TD>
+			<P>varchar(20)</P>
+		</TD>
+		<TD>
+			<P>No</P>
+		</TD>
+		<TD></TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>last_name</P>
+		</TD>
+		<TD>
+			<P>varchar(20)</P>
+		</TD>
+		<TD>
+			<P>No</P>
+		</TD>
+		<TD></TD>
+	</TR>
+</TABLE>
+<H2 CLASS="western">Dumping data for table users</H2>
+<TABLE CELLPADDING=2 CELLSPACING=1>
+	<TR>
+		<TD>
+			<P>1</P>
+		</TD>
+		<TD>
+			<P>Richard</P>
+		</TD>
+		<TD>
+			<P>McKnight</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>2</P>
+		</TD>
+		<TD>
+			<P>Clark</P>
+		</TD>
+		<TD>
+			<P>Kent</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>3</P>
+		</TD>
+		<TD>
+			<P>James</P>
+		</TD>
+		<TD>
+			<P>Bond</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>4</P>
+		</TD>
+		<TD>
+			<P>Duke</P>
+		</TD>
+		<TD>
+			<P>Nukem</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>5</P>
+		</TD>
+		<TD>
+			<P>Bruce</P>
+		</TD>
+		<TD>
+			<P>Wayne</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>6</P>
+		</TD>
+		<TD>
+			<P>Diana</P>
+		</TD>
+		<TD>
+			<P>Prince</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>7</P>
+		</TD>
+		<TD>
+			<P>John</P>
+		</TD>
+		<TD>
+			<P>Jones</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>8</P>
+		</TD>
+		<TD>
+			<P>Hal</P>
+		</TD>
+		<TD>
+			<P>Jordan</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>68</P>
+		</TD>
+		<TD>
+			<P>Lex</P>
+		</TD>
+		<TD>
+			<P>Luthor</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>69</P>
+		</TD>
+		<TD>
+			<P>The</P>
+		</TD>
+		<TD>
+			<P>Hulk</P>
+		</TD>
+	</TR>
+</TABLE>
+<P><BR><BR>
+</P>
+</BODY>
+</HTML>
